@@ -10,6 +10,7 @@ if($ratarata > 60){
     echo "$ratarata \n";
     echo "Anda Lulus";
 }else{
+    echo "$ratarata \n";
     echo "Anda Gagal";
 }
 
