@@ -6,12 +6,12 @@ $nilai_biologi = 68;
 
 $ratarata = ($nilai_matematika + $nilai_fisika + $nilai_biologi) / 3;
 
-if($ratarata > 60){
-    echo "$ratarata \n";
-    echo "Anda Lulus";
-}else{
-    echo "$ratarata \n";
-    echo "Anda Gagal";
+    if($ratarata > 60){
+        echo "$ratarata \n";
+        echo "Anda Lulus";
+    }else{
+        echo "$ratarata \n";
+        echo "Anda Gagal";
 }
 
 ?>
